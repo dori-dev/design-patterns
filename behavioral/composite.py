@@ -3,6 +3,7 @@ from typing import List
 
 TAB = '  '
 
+
 class World(ABC):
     def __init__(self, name):
         self.name = name
